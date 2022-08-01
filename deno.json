@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "serve-client": "deno run -A --watch=static/,routes/ dev.ts",
+    "serve-server": "deno run -A --watch=server/ server.ts"
+  },
+  "importMap": "./import_map.json"
+}
